@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://mods-unpacked/KANA-MoreBackgrounds/content/backgrounds/backgrounds_all.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/KANA-MoreBackgrounds/content/backgrounds/gray/kana_background_gray.tres" type="Resource" id=2]
+
+[resource]
+script = ExtResource( 1 )
+backgrounds = [ ExtResource( 2 ) ]
