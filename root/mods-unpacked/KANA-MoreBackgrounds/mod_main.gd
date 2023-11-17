@@ -9,7 +9,7 @@ var extensions_dir_path := ""
 var translations_dir_path := ""
 
 
-func _init() -> void:
+func _init(modLoader = ModLoader) -> void:
 	mod_dir_path = ModLoaderMod.get_unpacked_dir().plus_file(KANA_MOREBACKGROUNDS_DIR)
 	# Add extensions
 	install_script_extensions()
