@@ -1,25 +1,27 @@
 {
 	"name": "MoreBackgrounds",
 	"namespace": "KANA",
-	"version_number": "0.0.1",
-	"description": "Description of your mod...",
-	"website_url": "https://github.com/exampleauthor/examplemod",
+	"version_number": "1.0.1",
+	"description": "Simple mod that adds a gray background option.",
+	"website_url": "https://github.com/BrotatoMods",
 	"dependencies": [
 
 	],
 	"extra": {
 		"godot": {
 			"authors": [
-				"AuthorName"
+				"KANA"
 			],
 			"optional_dependencies": [
 
 			],
 			"compatible_game_version": [
-				"0.0.1"
+				"1.0.0.3"
 			],
 			"compatible_mod_loader_version": [
-				"6.1.0"
+				"6.0.0",
+				"6.1.0",
+				"6.2.0"
 			],
 			"incompatibilities": [
 
@@ -28,7 +30,7 @@
 
 			],
 			"tags": [
-
+				"Backgrounds"
 			],
 			"config_schema": {
 
